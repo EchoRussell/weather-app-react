@@ -8,7 +8,7 @@ function App() {
       open-source repository on&nbsp;
       <a href="https://github.com/EchoRussell/weather-app-react">Github </a>. It
       is also hosted on &nbsp;
-      <a href="https://enchanting-pastelito-f7d5d7.netlify.app/">Netlify</a>
+      <a href="https://imaginative-raindrop-44c4b8.netlify.app/">Netlify</a>
     </p>
   );
 }
