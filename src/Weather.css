@@ -1,13 +1,89 @@
+:root {
+  --main-color: rgb(87, 108, 168);
+  --secondary-color: rgb(48, 43, 39);
+  --third-color: rgb(245, 243, 245);
+}
+
 .Weather {
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
+  background-color: var(--main-color);
   padding: 16px;
-  border-radius: 4px;
-  color: #878787;
-  width: 50%;
+  border-radius: 5px;
+  border-color: #878787;
+  max-width: 600px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
+}
+.Weather h1 {
+  font-family: "anona", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--secondary-color);
+  margin-top: 15px;
+  font-size: 45px;
+}
+
+.Weather ul {
+  list-style: none;
+  font-family: "anona", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(245, 243, 245, 0.8);
+  padding: 0;
+}
+
+.Weather .btn {
+  background-color: var(--third-color);
+  border-color: var(--secondary-color);
+  border-width: 2px;
+  color: var(--secondary-color);
+  font-family: "anona", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Weather .btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+  border-color: var(--third-color);
+  transition: ease-in;
+  font-family: "anona", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Weather .form-control {
+  background-color: rgb(245, 243, 245, 0.8);
+  border-color: var(--secondary-color);
+  border-width: 2px;
+  font-family: "anona", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cloud-icon {
+  height: 100px;
+}
+
+.degree {
+  font-family: "anona", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: var(--secondary-color);
+  padding: 0;
+  margin-left: 10px;
+}
+
+.temp-unit {
+  font-family: "anona", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  margin-right: 5px;
+  padding: 0;
 }
