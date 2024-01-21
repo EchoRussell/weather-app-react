@@ -24,7 +24,7 @@
   font-style: normal;
   color: var(--secondary-color);
   margin-top: 15px;
-  font-size: 45px;
+  font-size: 30px;
 }
 
 .Weather ul {
@@ -67,6 +67,7 @@
 
 .cloud-icon {
   height: 100px;
+  margin-bottom: 20px;
 }
 
 .degree {
