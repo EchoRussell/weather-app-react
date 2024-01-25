@@ -67,24 +67,35 @@
 
 .cloud-icon {
   height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: -50px;
 }
 
 .degree {
   font-family: "anona", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 50px;
+  font-size: 30px;
   color: var(--secondary-color);
   padding: 0;
-  margin-left: 10px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-top: -100px;
+  margin-bottom: 30px;
 }
-
 .temp-unit {
   font-family: "anona", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 45px;
+  font-size: 20px;
   margin-right: 5px;
   padding: 0;
+  margin-left: 3px;
+}
+
+.temp-unit a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.temp-unit a:hover {
+  color: var(--third-color);
 }
