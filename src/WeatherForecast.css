@@ -1,0 +1,28 @@
+.WeatherForecast {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.WeatherForecast-day {
+  font-family: "anona", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(48, 43, 39);
+}
+
+.WeatherForecast-icon {
+  height: 50px;
+}
+
+.WeatherForecast-temp {
+  font-family: "anona", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(48, 43, 39);
+}
+
+.WeatherForecast-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
